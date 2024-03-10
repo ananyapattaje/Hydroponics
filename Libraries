@@ -17,7 +17,6 @@ Install Arduino IDE: Download and install the Arduino IDE from the official webs
     Arduino IDE allows you to easily install additional libraries via the Library Manager. Go to Sketch > Include Library > Manage Libraries... and search for libraries you want to install.
 
 Libraries Installation:
-
 > For ESP8266 with Blynk: Ensure you have the Blynk library installed. You can install it from the Arduino Library Manager.
 > For Arduino Mega 2560 with sensors and LCD: You need libraries for the specific sensors and the LCD. Common libraries include:
 > DHT sensor library for temperature and humidity (install from Library Manager).
