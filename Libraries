@@ -16,9 +16,13 @@ Install Arduino IDE: Download and install the Arduino IDE from the official webs
 > Library Manager Setup:
     Arduino IDE allows you to easily install additional libraries via the Library Manager. Go to Sketch > Include Library > Manage Libraries... and search for libraries you want to install.
 
-Libraries Installation:
-> For ESP8266 with Blynk: Ensure you have the Blynk library installed. You can install it from the Arduino Library Manager.
-> For Arduino Mega 2560 with sensors and LCD: You need libraries for the specific sensors and the LCD. Common libraries include:
-> DHT sensor library for temperature and humidity (install from Library Manager).
-> LiquidCrystal library for the 16x2 LCD display (pre-installed with Arduino IDE).
-> pH sensor library (depends on the specific pH sensor you are using).
+Libraries to be installed:
+
+Arduino:
+> Wire (It is usually pre-installed)
+> LiquidCrystal
+> LiquidCrystal_I2C (Arduino-LiquidCrystal-I2C-library-master)
+> DHT_sensor_library
+
+Wifi module(ESP8266)
+> BlynkEdgent
